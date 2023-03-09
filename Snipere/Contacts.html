@@ -1,0 +1,70 @@
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    button.hover {
+        background-color: aqua;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial;
+        font-size: 17px;
+    }
+
+    #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+    }
+
+    .content {
+        position: fixed;
+        bottom: 0;
+        background: rgba(0, 0, 0, 0.5);
+        color: #f1f1f1;
+        width: 100%;
+        padding: 20px;
+    }
+</style>
+
+<body>
+
+
+
+    <video autoplay muted loop id="myVideo">
+    <source src="rain.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+
+
+    <div id="contact" class="content">
+        <h2 style="color: grey;">Contact Me</h2>
+        <hr style="width:200px; opacity: unset;">
+
+        <div>
+            <p><i></i> Kiambu, KENYA</p>
+            <p><i></i> Phone: +254 74151515</p>
+            <p><i> </i> Email: mail@mail.com</p>
+        </div><br>
+        <p>Let's get in touch. Send me a message:</p>
+
+        <form target="_blank">
+            <p><input type="text" placeholder="Name" required name="Name"></p>
+            <p><input type="text" placeholder="Email" required name="Email"></p>
+            <p><input type="text" placeholder="Subject" required name="Subject"></p>
+            <p><input type="text" placeholder="Message" required name="Message"></p>
+            <p>
+                <button style="padding: large;" type="submit">
+          <i ></i> SEND MESSAGE
+        </button>
+            </p>
+        </form>
+        <a href="index.html"><button>back</button></a>
+    </div>
+
+</body>
